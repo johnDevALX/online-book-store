@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: online-book-store
+  profiles:
+    active: local
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: false
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+#Provide config for postgres db connection, redis host and jwt secret

@@ -1,0 +1,3 @@
+
+
+#Provide config for postgres db connection (datasource), redis host and jwt secret (app config)
